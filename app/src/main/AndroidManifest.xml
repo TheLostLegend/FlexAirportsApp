@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.restapiidemo">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/code_android_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/code_android_logo"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.Calculator"
+        tools:targetApi="n">
+        <activity
+            android:name=".home.ui.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.ui.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.ui.ForgorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.ui.ProfileActivity"
+            android:exported="true" />
+        <activity android:name=".home.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
