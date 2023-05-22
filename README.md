@@ -1,2 +1,1 @@
-# RestApiDemo
-## This respository shows how to implement Rest Apis in Android using Retrofit 
+# Главный спонсор нашей компании - мем с Рикардо Милосом
